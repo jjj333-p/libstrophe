@@ -21,7 +21,7 @@
  */
 
 #include <errno.h>
-#ifndef _MSC_VER
+#if !defined(_MSC_VER) && !defined(_WIN32)
 #include <netinet/in.h>
 #endif
 #include <stdarg.h>
