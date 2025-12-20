@@ -110,8 +110,6 @@ const char *xmpp_tlscert_get_pem(const xmpp_tlscert_t *cert)
 
 /** Get the dnsName entries out of the SubjectAlternativeNames.
  *
- *  Note: Max. `MAX_NUM_DNSNAMES` are supported.
- *
  *  @param cert a Strophe TLS certificate object
  *  @param n which dnsName entry
  *
