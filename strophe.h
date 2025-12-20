@@ -188,6 +188,7 @@ typedef struct _xmpp_sm_t xmpp_sm_state_t;
 #define XMPP_CONN_FLAG_DISABLE_TLS (1UL << 0)
 #define XMPP_CONN_FLAG_MANDATORY_TLS (1UL << 1)
 #define XMPP_CONN_FLAG_LEGACY_SSL (1UL << 2)
+#define XMPP_CONN_FLAG_DIRECT_TLS XMPP_CONN_FLAG_LEGACY_SSL
 /** @def XMPP_CONN_FLAG_TRUST_TLS
  *  Trust server's certificate even if it is invalid.
  */
